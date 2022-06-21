@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section */
+#menu ul {
+    list-style: none;
+
+}
+
+#menu ul li {
+    background-color: rgb(98, 0, 255);
+    border: 1px solid white;
+    width: 264px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(242, 255, 127);
+    color: black;
+}
+
+/* menu section */
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+#menu ul li:hover>ul {
+    display: block;
+}
+
+/* Footer section */
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer h1 {
+    color: white;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
