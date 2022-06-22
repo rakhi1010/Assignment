@@ -56,6 +56,6 @@ body {
 }
 
 #log:hover {
-    background-color: blueviolet;
+    background-color: rgba(153, 72, 228, 0.781);
     color: black;
 }
